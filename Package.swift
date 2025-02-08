@@ -2,6 +2,13 @@
 
 import PackageDescription
 
+let deps: [Package.Dependency]
+#if !os(Linux)
+    deps = [.package(url: "https://github.com/Fluzzarn/Starscream", from: "1.2.0")]
+#else
+    deps = [.package(url: "https://github.com/vapor/engine", from: "2.0.0")]
+#endif
+
 let package = Package(
     name: "SocketIO",
     platforms: [
@@ -10,9 +17,8 @@ let package = Package(
     products: [
         .library(name: "SocketIO", targets: ["SocketIO"])
     ],
-    dependencies: [
-        .package(url: "https://github.com/Fluzzarn/Starscream.git", from: "1.2.0")
-    ],
+    dependencies:
+        deps,
     targets: [
         .target(name: "SocketIO", dependencies: ["Starscream"]),
         .testTarget(name: "TestSocketIO", dependencies: ["SocketIO"]),
