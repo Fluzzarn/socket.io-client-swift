@@ -1,34 +1,33 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "Starscream",
-        "repositoryURL": "https://github.com/Fluzzarn/Starscream.git",
-        "state": {
-          "branch": null,
-          "revision": "4be074ce7ce6252736cc551e5847f1a7ac374867",
-          "version": "1.1.0"
-        }
-      },
-      {
-        "package": "swift-asn1",
-        "repositoryURL": "https://github.com/apple/swift-asn1.git",
-        "state": {
-          "branch": null,
-          "revision": "ae33e5941bb88d88538d0a6b19ca0b01e6c76dcf",
-          "version": "1.3.1"
-        }
-      },
-      {
-        "package": "swift-crypto",
-        "repositoryURL": "https://github.com/apple/swift-crypto.git",
-        "state": {
-          "branch": null,
-          "revision": "f2f3774fd116a305136b6866e5e7cb7dff39d8f2",
-          "version": "3.10.1"
-        }
+  "originHash" : "69620e8e9cccc158d1cca84530b9d37bd86505d3f8aacad15555f5e5b1c28cfa",
+  "pins" : [
+    {
+      "identity" : "starscream",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Fluzzarn/Starscream.git",
+      "state" : {
+        "revision" : "6178b31865affc77eeea5b58a9ec8201381a49aa",
+        "version" : "1.2.0"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "swift-asn1",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-asn1.git",
+      "state" : {
+        "revision" : "ae33e5941bb88d88538d0a6b19ca0b01e6c76dcf",
+        "version" : "1.3.1"
+      }
+    },
+    {
+      "identity" : "swift-crypto",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-crypto.git",
+      "state" : {
+        "revision" : "f2f3774fd116a305136b6866e5e7cb7dff39d8f2",
+        "version" : "3.10.1"
+      }
+    }
+  ],
+  "version" : 3
 }
