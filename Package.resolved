@@ -6,8 +6,26 @@
         "repositoryURL": "https://github.com/Fluzzarn/Starscream.git",
         "state": {
           "branch": null,
-          "revision": "6e0752d4eeb531f1d4582f8a1f6ce30d271e7fdb",
-          "version": "1.0.0"
+          "revision": "4be074ce7ce6252736cc551e5847f1a7ac374867",
+          "version": "1.1.0"
+        }
+      },
+      {
+        "package": "swift-asn1",
+        "repositoryURL": "https://github.com/apple/swift-asn1.git",
+        "state": {
+          "branch": null,
+          "revision": "ae33e5941bb88d88538d0a6b19ca0b01e6c76dcf",
+          "version": "1.3.1"
+        }
+      },
+      {
+        "package": "swift-crypto",
+        "repositoryURL": "https://github.com/apple/swift-crypto.git",
+        "state": {
+          "branch": null,
+          "revision": "f2f3774fd116a305136b6866e5e7cb7dff39d8f2",
+          "version": "3.10.1"
         }
       }
     ]
